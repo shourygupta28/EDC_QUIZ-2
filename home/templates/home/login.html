@@ -10,6 +10,7 @@
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
+	<link rel="icon" href="{% static 'home/images/favicon.ico' %}" type="image">
 
 	<title>Login</title>
 	<link rel="stylesheet" href="bootstrap-social.css">
@@ -37,10 +38,19 @@
 			max-width: 450px;
 		}
 		}
+
+		body {
+  		background-image: url("{% static 'home/images/TEAM2.png' %}");
+  		background-size: cover;
+  		width: 100%;
+  		height: 100vh;
+  		
+		}
+
 	</style>
 </head>
 
-<body class="bodyMade ">
+<body>
 	<div class="ImageLogo">
 		<img style="height: 200px; width: 250px;" src="{% static 'home/images/EDC.png' %}" alt="">
 	</div>
@@ -85,6 +95,7 @@
 
 
 	</div>
+	
 
 
 
